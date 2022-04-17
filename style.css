@@ -1,0 +1,44 @@
+.heading{
+    width: 100%;
+    margin: 0px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 30px;
+}
+
+body{
+    background-size: cover;
+}
+
+button{
+    font-family: 'Shizuru', cursive;
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+height: 50px;
+width: 55px;
+}
+
+.copyright_footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    color: white;
+    text-align: center;
+    font-family: 'Shizuru', cursive;
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+h3{
+    font-family: 'PT Serif', serif;
+    font-size: 30px;
+}
+
+canvas{
+    animation: canva 3s infinite;
+    margin-top: 100px;
+}
+
+@keyframes canva{
+    from{box-shadow: 5px 5px 5px lightblue; border-radius: 0px;}
+    to{box-shadow: 5px 5px 5px rgb(14, 48, 196); border-radius: 20px;}
+}
